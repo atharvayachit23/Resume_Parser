@@ -58,7 +58,7 @@ if analyze:
         try:
 
             response = requests.post(
-                "http://127.0.0.1:8000/analyze",
+                "https://resume-parser-32y5.onrender.com/analyze",
                 files=files,
                 data=data
             )
